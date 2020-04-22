@@ -16,5 +16,5 @@ for line in hand:
         #print(c)
         for hours in c:
             counts[hours]=counts.get(hours,0)+1
-for k,v in sorted(counts.items()):
-    print(k,v)
+for key,val in sorted(counts.items()):
+    print(key,val)
